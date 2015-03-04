@@ -8,27 +8,30 @@
 		to maps, API Superstore lists all of the services that customers expect">
         <title>API Superstore</title>
         <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
 		<link rel="stylesheet" href="assets/bootstrap/main.css">
         <!-- End Bootstrap CSS Framework -->
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
+     <!-- Favicon -->	
        <link rel="shortcut icon" href="/favicon.ico">
  
 
     </head>
-    <body>
-        <div>
+    <body class="container">
+		<div id="fb-root"></div>
+		
+      <!-- Facebook Plugin -->		
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+ 			 if (d.getElementById(id)) return;
+ 			 js = d.createElement(s); js.id = id;
+ 			 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+ 			 fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+        <div>   <!-- Facebook Plugin -->	
+			
 			<div id="header">
 				<div id="header-top">	
 					<img src="/assets/logos/api_superstore_logo_bg.png"/>
@@ -105,6 +108,7 @@
 				<li>Email: info@apisuperstore.com  </li>
 				<li>Seattle, Washington, USA  </li>
 			</ul>
+			<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="400px" data-height="standard" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
 		</footer>
 		</div> <!-- Footer page -->
     </body>

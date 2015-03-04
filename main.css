@@ -1,8 +1,16 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+	background-color: white;
+	font-family: arial, verdana, sans-serif;
+}
+
+#footer ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+	color: #426279;
 }
