@@ -4,51 +4,112 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
+		<meta name="description" content="The API Superstore provides a catalog of third party APIs that you can use to enhance your business. From e-commerce
+		to maps, API Superstore lists all of the services that customers expect">
         <title>API Superstore</title>
         <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" href="assets/bootstrap/main.css">
         <!-- End Bootstrap CSS Framework -->
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+     <!-- Favicon -->	
+       <link rel="shortcut icon" href="/favicon.ico">
+ 
 
     </head>
-    <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+    <body class="container">
+		<div id="fb-root"></div>
+		
+      <!-- Facebook Plugin -->		
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+ 			 if (d.getElementById(id)) return;
+ 			 js = d.createElement(s); js.id = id;
+ 			 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+ 			 fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+        <div>   <!-- Facebook Plugin -->	
+			
+			<div id="header">
+				<div id="header-top">	
+					<img src="/assets/logos/api_superstore_logo_bg.png"/>
+        <h1>API Superstore</h1>
+					
+		<nav class="header">
+			<a class="header_logo" href="logos/api_superstore_logo_bg.png">
+			</a>
+			<ul id="nav" class= "header">
+				<li>Home</li>
+				<li><a href="#Product">Product</a></li>
+				<li><a href="#Features">Features</a></li>
+				<li><a href="#Testimonials">Testimonials</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		</div>  <!-- Home and navigation page -->
+		<div class="carousel">
+			 <!-- TODO find stock photos for carousel here -->
+				</div>
+		<div>
+			<section id="Product">
+			<h2>Product</h2>
+			<p> The API Superstore provides a catalog of third party APIs that you can use to enhance your business. 
+				From e-commerce to maps, API Superstore lists all of the services that customers expect</p>
+			  <!-- TODO put the explainer video HERE -->
+				
+		</div><!-- Product page -->
+		<div>
+			<section id="Features">
+			<h2>Features</h2>
+			<p><ul>
+				<li>Access top APIs from all over the web</li>
+				<li>Easy payment via credit card, PayPal, Beanie Babies </li>
+				<li>Convenient catalog browsing</li>
+				<li>Dynamic online shopping experience</li>
+				<li>Low monthly fees</li>
+			</ul></p>
+		</div> <!-- Features  page -->
+     
 
-        <!-- TODO: Create an area to put the explainer video. -->
+      
 
         <!-- TODO: Create an area to put the long product description. -->
-
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
+   
         <!-- TODO: Create an area that allows users to Share links to the
              page. -->
 
         <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
+		<div id="Testimonials">
+	<aside>
+		<h3>Testimonials</h3>
+		<!-- TODO insert five star rating here -->
+		<p><blockquote id="CP">“This is the best website ever!” C.P. Yu, AmazingSite.com </blockquote>
+		<!-- TODO insert five star rating here -->
+		<blockquote id="Clara">“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!” Clara Cache, Satisfied Customer 
+				</blockquote>
+		<blockquote id="Marissa">"This product has changed the way we do business!" Marissa Mayer, CEO of Yahoo!</blockquote>
+		<blockquote id="Amy">“I have really admired the way the API Superstore team has created a truly divine interface for browsing
+			all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the 
+			churn of information that makes application development so difficult, and API Superstore makes my world so much happier! 
+			Please don’t stop the rocking!” Amy Zon, Super Important Person</blockquote></p>
+	
+</aside>
+				</div> <!-- Testimonials page -->
+		<div>
+		<section id="footer">
+		<footer>
+			<h3>Contact </h3>
+			<ul>
+				<li>API Superstore, Inc. </li>
+				<li>Phone: 2065551234</li>
+				<li>Email: info@apisuperstore.com  </li>
+				<li>Seattle, Washington, USA  </li>
+			</ul>
+			<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="400px" data-height="standard" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+		</footer>
+		</div> <!-- Footer page -->
     </body>
 </html>
