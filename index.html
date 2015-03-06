@@ -7,12 +7,13 @@
 		<meta name="description" content="The API Superstore provides a catalog of third party APIs that you can use to enhance your business. From e-commerce
 		to maps, API Superstore lists all of the services that customers expect">
         <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
+		
+        <!--  CSS Framework -->
 
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-		<link rel="stylesheet" href="assets/bootstrap/main.css">
-        <!-- End Bootstrap CSS Framework -->
+		<link rel="stylesheet" href="main.css">
+        <!-- End CSS Framework -->
 
      <!-- Favicon -->	
        <link rel="shortcut icon" href="/favicon.ico">
@@ -34,18 +35,17 @@
 			
 			<div id="header">
 				<div id="header-top">	
-					<img src="/assets/logos/api_superstore_logo_bg.png"/>
-        <h1>API Superstore</h1>
-					
+					<h1><img src="/assets/logos/api_superstore_logo_bg.png"/></h1>			
 		<nav class="header">
 			<a class="header_logo" href="logos/api_superstore_logo_bg.png">
 			</a>
 			<ul id="nav" class= "header">
-				<li>Home</li>
+				<li><a href="#header-top">Home</li>
+				<li><a href="#Buynow">Buy Now</a></li>
 				<li><a href="#Product">Product</a></li>
 				<li><a href="#Features">Features</a></li>
 				<li><a href="#Testimonials">Testimonials</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#footer">Contact</a></li>
 			</ul>
 		</nav>
 		</div>  <!-- Home and navigation page -->
@@ -57,7 +57,11 @@
 			<h2>Product</h2>
 			<p> The API Superstore provides a catalog of third party APIs that you can use to enhance your business. 
 				From e-commerce to maps, API Superstore lists all of the services that customers expect</p>
-			  <!-- TODO put the explainer video HERE -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+		<div class="container">
+ 		 <button type="button" class="btn">Buy Now</button>
+		</div>
+				<!-- Product info and embedded video -->
 				
 		</div><!-- Product page -->
 		<div>
@@ -98,6 +102,11 @@
 	
 </aside>
 				</div> <!-- Testimonials page -->
+				<div>
+		<section id="Buynow">
+		<footer>
+			<h3>Buy Now </h3>
+			<!--Put BUY NOW button here -->
 		<div>
 		<section id="footer">
 		<footer>
@@ -111,5 +120,8 @@
 			<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="400px" data-height="standard" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
 		</footer>
 		</div> <!-- Footer page -->
+			<div>
+				<p><a href="#header-top"/> Back to top </p>
+			</div>
     </body>
 </html>
