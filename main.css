@@ -7,7 +7,31 @@ html {
 	}
 body { 
 	line-height: 1.6em;
-	margin: 20px; 
-	padding: 0;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 100px;
 	background-image: url(design/brickwall.png);
+	font-family: 'Open Sans Condensed', sans-serif;
 	}
+
+h2 { font-size: 30px; letter-spacing: -1px; color:
+	#DFBF84; text-transform: uppercase; text-shadow: 1px 1px 0 #000;
+	margin: 10px 0 24px; text-align: left; line-height: 50px; }
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#product{
+	margin-top: 150px;
+}
+
