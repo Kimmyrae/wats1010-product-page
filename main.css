@@ -11,27 +11,3 @@ body {
 	padding: 0;
 	background-image: url(design/brickwall.png);
 	}
-img {
-	width: 700px;
-	}
-img:hover {
-    opacity: .80;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-}
-h1 {
-	padding: 10px 10px 10px 10px;
-	text-align: center;
-	margin: auto;
-	border-radius: 2px;
-	background-image: url(design/subtle_carbon.png);	
-}
-
-ul {
-    list-style-type: none;
-	top: 200px; 
-	left: 40px;
-	font: 12px Ariel; 
-	width: 130px; 
-}
-
-

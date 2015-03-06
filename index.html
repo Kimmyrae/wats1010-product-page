@@ -7,65 +7,47 @@
 		<meta name="description" content="The API Superstore provides a catalog of third party APIs that you can use to enhance your business. From e-commerce
 		to maps, API Superstore lists all of the services that customers expect">
         <title>API Superstore</title>
-		
+	
         <!--  CSS Framework -->
-
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
 		<link rel="stylesheet" href="main.css">
         <!-- End CSS Framework -->
 
      <!-- Favicon -->	
        <link rel="shortcut icon" href="/favicon.ico">
- 
+ 	
 
-    </head>
-    <body class="container">
-		<div id="fb-root"></div>
-		
-      <!-- Facebook Plugin -->		
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
- 			 if (d.getElementById(id)) return;
- 			 js = d.createElement(s); js.id = id;
- 			 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
- 			 fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script>
-        <div>   <!-- Facebook Plugin -->	
-			
-			<div id="header">
-				<div id="header-top">	
-					<h1><img src="/assets/logos/api_superstore_logo_bg.png"/></h1>			
-		<nav class="header">
-			<a class="header_logo" href="logos/api_superstore_logo_bg.png">
-			</a>
-			<ul id="nav" class= "header">
-				<li><a href="#header-top">Home</li>
-				<li><a href="#Buynow">Buy Now</a></li>
-				<li><a href="#Product">Product</a></li>
-				<li><a href="#Features">Features</a></li>
-				<li><a href="#Testimonials">Testimonials</a></li>
-				<li><a href="#footer">Contact</a></li>
-			</ul>
-		</nav>
-		</div>  <!-- Home and navigation page -->
-		<div class="carousel">
-			 <!-- TODO find stock photos for carousel here -->
-				</div>
+    
+	<div class="container">
+<!-- 		<nav class="nav navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container"> -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href=#featured> 
+					<img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore logo" height=90>
+				</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li role="presentation" class="active"><a href="#">Home</a></li>
+				<li role="presentation"><a href="#product">Product</a></li>
+				<li role="presentation"><a href="#features">Features</a></li>
+				<li role="presentation"><a href="#testimonials">Testimonials</a></li>
+				<li role="presentation"><a href="#contact">Contact</a></li>
+			</ul> 			
 		<div>
-			<section id="Product">
+			<section id="product">
 			<h2>Product</h2>
 			<p> The API Superstore provides a catalog of third party APIs that you can use to enhance your business. 
-				From e-commerce to maps, API Superstore lists all of the services that customers expect</p>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
-		<div class="container">
+				From e-commerce to maps, API Superstore lists all of the services that customers expect. Watch the video to learn more!</p>
+			<!-- 	<iframe width="853" height="480" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+		<div class="container"> -->
  		 <button type="button" class="btn">Buy Now</button>
 		</div>
 				<!-- Product info and embedded video -->
 				
 		</div><!-- Product page -->
 		<div>
-			<section id="Features">
+			<section id="features">
 			<h2>Features</h2>
 			<p><ul>
 				<li>Access top APIs from all over the web</li>
@@ -83,10 +65,7 @@
    
         <!-- TODO: Create an area that allows users to Share links to the
              page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-		<div id="Testimonials">
+		<div id="testimonials">
 	<aside>
 		<h3>Testimonials</h3>
 		<!-- TODO insert five star rating here -->
@@ -108,7 +87,7 @@
 			<h3>Buy Now </h3>
 			<!--Put BUY NOW button here -->
 		<div>
-		<section id="footer">
+		<section id="contact">
 		<footer>
 			<h3>Contact </h3>
 			<ul>
@@ -121,7 +100,7 @@
 		</footer>
 		</div> <!-- Footer page -->
 			<div>
-				<p><a href="#header-top"/> Back to top </p>
+				<p><a href="#navbar-header"/> Back to top </p>
 			</div>
     </body>
 </html>
