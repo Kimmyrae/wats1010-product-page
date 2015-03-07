@@ -1,6 +1,6 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
-
+/* NOTE: Do not edit the Bootstrap CSS files.  */
 html {
 	margin: 0;
 	padding: 0;
@@ -14,9 +14,9 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	}
 
-h2 { font-size: 30px; letter-spacing: -1px; color:
-	#DFBF84; text-transform: uppercase; text-shadow: 1px 1px 0 #000;
-	margin: 10px 0 24px; text-align: left; line-height: 50px; }
+h2 { font-size: 50px; letter-spacing: 1px; color:
+	black; text-transform: uppercase; text-shadow: 1px 1px 0 #000;
+	margin: 10px 0 24px; text-align: left; line-height: 60px; }
 hr { 
     display: block;
     margin-top: 0.5em;
@@ -24,14 +24,51 @@ hr {
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 ul{
 	list-style-type: none;
+	display: inline;
 }
 
 #product{
 	margin-top: 150px;
 }
+
+/* Footer CSS. */
+
+#navcontainer ul { 
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
+	text-align: center;
+}
+#navcontainer ul li { display: inline; }
+#navcontainer ul li a {
+	text-decoration: none; 
+	padding: .2em 1em;
+	color: #fff;
+	background-color: black;
+}
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: black;
+}
+
+#slogan {
+	background: none;
+	background-size: cover;
+	width: 100%;
+	height: 380px;
+	text-align: center;
+	opacity: 50;
+}
+#slogan div {
+	padding: 100px;
+}
+
+
+/* experimental CSS */
 

@@ -1,77 +1,106 @@
-<!doctype html>
+ <!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="The API Superstore provides a catalog of third party APIs that you can use to enhance your business. From e-commerce
-		to maps, API Superstore lists all of the services that customers expect">
+        <!-- TODO: Add proper head tag to provide a page description for search
+             engines. -->
         <title>API Superstore</title>
-	
-        <!--  CSS Framework -->
-	  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+        <!-- Bootstrap CSS Framework -->
+        <!-- You can remove the ``link`` tags below if you don't want to use
+             Bootstrap with your site. If you choose to use Bootstrap, be sure
+             to reference the resources and the Bootstrap official
+             documentation: http://getbootstrap.com.
+
+             Please Note: This repo does not include the Bootstrap Javascript
+             plugins, so you cannot use the features documented under
+             "Javascript" on the Bootstrap documentation site. -->
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-		<link rel="stylesheet" href="main.css">
-        <!-- End CSS Framework -->
+    <link rel="stylesheet" href="main.css">
+        <!-- End Bootstrap CSS Framework -->
 
-     <!-- Favicon -->	
-       <link rel="shortcut icon" href="/favicon.ico">
- 	
+        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
+             support bookmarking. -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="favicon" href="favicon.ico">
 
+    </head>
+    <body>
+    <nav class="nav navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href=#featured>
+          <img src="assets/logos/api_superstore_sqlogo_bg.png" alt="API Superstore logo" height="100">
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#features">Features</a></li>
+        <li role="presentation"><a href="#testimonials">Testimonials</a></li>
+        <li role="presentation"><a href="#contact">Contact</a></li>
+      </ul>
+      </div>
+    </nav>
+  <header>
+    <div class="jumbotron">
+        <h1 id="tagline">Save Time and Money</h1>
+          <p>The API Superstore provides quick and easy access to the most APIs.</p>
+    </div>  
+  </header>
     
-	<div class="container">
-	<!-- 	<nav class="nav navbar-inverse navbar-fixed-top" role="navigation"> 
-			<div class="container"> -->
-			<div class="navbar-header">
-				<a class="navbar-brand" href=#featured> 
-				<img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore logo" height=120>
-				</a>
-			</div>
-		<div>
-			<ul class="nav navbar-nav navbar-right">
-				<li role="presentation" class="active"><a href="#">Home</a></li>
-				<li role="presentation"><a href="#product">Product</a></li>
-				<li role="presentation"><a href="#features">Features</a></li>
-				<li role="presentation"><a href="#testimonials">Testimonials</a></li>
-				<li role="presentation"><a href="#contact">Contact</a></li>
-			</ul> 
-				</div>
-		<hr>
-		<div>
-			<section id="product">
-			<h2>Product</h2>
-			<p> The API Superstore provides a catalog of third party APIs that you can use to enhance your business. 
-				From e-commerce to maps, API Superstore lists all of the services that customers expect. Watch the video to learn more!</p>
-				<iframe width="550" height="350" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
-		<div class="container"> 
- 			<p><a href="#" class="btn btn-primary" role="button">Buy Now</a> 
-			<a href="#" class="btn btn-default"role="button">Share</a></p>
-		</div>
-				<!-- Product info and embedded video -->
-				
-		</div><!-- Product page -->
-			<hr>
-		<div>
-			<section id="features">
-			<h2>Features</h2>
-			<p><ul>
-				<li>Access top APIs from all over the web</li>
+  <section id="features">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/L48g1ZWLMdo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-4">
+		   <button type="button" class="btn btn-default btn-lg">
+           			 <span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download Now
+        	</button>
+       	    <button type="button" class="btn btn-default btn-lg">
+            		<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Share Now
+       		 </button>
+        <h2>Features</h2>
+        <ul>
+         		<li>Access top APIs from all over the web</li>
 				<li>Easy payment via credit card, PayPal, Beanie Babies </li>
 				<li>Convenient catalog browsing</li>
 				<li>Dynamic online shopping experience</li>
 				<li>Low monthly fees</li>
-			</ul></p>
-		</div> <!-- Features  page -->
-    
-	<hr>
-       
-		<div class= "row" id="testimonials">			
-	<aside>
-		<h2>Testimonials</h2>
-		<p><a href="#" class="btn btn-primary" role="button">Buy Now</a> 
-		<a href="#" class="btn btn-default"role="button">Share</a></p>
+        </ul>
+         	
+      </div>
+      </div>
+		  </section>
+    <div class="row">
+      <div class="clo-md-10">
+      <p>
+		From e-commerce to maps, API Superstore lists all of the services that customers expect. Watch the video 
+		  to learn more!</p>
+      </div>
+    </div>
+    </div>
+
+  
+ 
+	   <section id="slogan">
+    <div>
+   <h3>Save Time and Money!The API Superstore provides a catalog of third party APIs that you can use to enhance your business. </h3> 
+      <button type="button" class="btn btn-default btn-lg">
+      Buy Now!
+      </button>
+    </div>
+  </section>
+
+<div id="testimonials" class="container">
+  <h2>Testimonials</h2>
 		<div class="row">
-    <div class="col-sm-4">
+   		 <div class="col-sm-4">
 		<p><blockquote id="CP">“This is the best website ever!” C.P. Yu, AmazingSite.com </blockquote>
 			</div>
 			<div class="row">
@@ -90,27 +119,34 @@
       </div>
     </div>
   </div>
-</div>
-	
-</aside>
-				</div> <!-- Testimonials page -->
-		<hr>
-		<div>
-		<section id="contact">
-		<footer>
-			<h2>Contact </h2>
-			<ul>
-				<li>API Superstore, Inc. </li>
-				<li>Phone: 2065551234</li>
-				<li>Email: info@apisuperstore.com  </li>
-				<li>Seattle, Washington, USA  </li>
-			</ul>
-			<div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="400px" data-height="standard" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
-		</footer>
-		</div> <!-- Footer page -->
-			<div>
-				<hr>
-				<p><a href="#navbar-header"/> Back to top </p>
+    
+ 
+    
+  <footer id="contact">
+  <h2>Contact </h2>
+			<div id="navcontainer">
+				<ul>
+					<li><a href="#"> API Superstore, Inc.</a></li>
+					<li><a href="#">Phone: (206)555-1234</a></li>
+					<li><a href="#">Email: info@apisuperstore.com</a></li>
+					<li><a href="#">Seattle, Washington, USA </a></li>
+				</ul>
 			</div>
-    </body>
+			
+  </footer>
+        <!-- TODO: Create an area to put the long product description. -->
+
+        <!-- TODO: Create an area to put customer testimonials. -->
+
+        <!-- TODO: Create an area to show features. -->
+
+        <!-- TODO: Create an area to show company contact info (phone,
+             location, etc.) -->
+
+        <!-- TODO: Create an area that allows users to Share links to the
+             page. -->
+
+        <!-- TODO: Create a call to action link to get users to sign up for the
+             service. -->
+  </body>
 </html>
