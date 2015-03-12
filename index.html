@@ -16,6 +16,9 @@
              Please Note: This repo does not include the Bootstrap Javascript
              plugins, so you cannot use the features documented under
              "Javascript" on the Bootstrap documentation site. -->
+		
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/gauge" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="main.css">
@@ -27,32 +30,46 @@
         <link rel="favicon" href="favicon.ico">
 
     </head>
+	 
     <body>
-    <nav class="nav navbar-inverse navbar-static-top" role="navigation">
-      <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href=#featured>
-          <img src="assets/logos/api_superstore_sqlogo_bg.png" alt="API Superstore logo" height="100">
-        </a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
+		
+   		 <nav class="nav navbar-inverse navbar-static-top" role="navigation">
+    	  <div class="container">
+     	 <div class="navbar-header">
+     	   <a class="navbar-brand" href=#featured>
+			   <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore logo" >
+         	 </a>
+      </div>  <!-- container Div -->
+      <ul class="nav navbar-nav navbar-left">
         <li role="presentation" class="active"><a href="#">Home</a></li>
         <li role="presentation"><a href="#features">Features</a></li>
         <li role="presentation"><a href="#testimonials">Testimonials</a></li>
         <li role="presentation"><a href="#contact">Contact</a></li>
       </ul>
-      </div>
-    </nav>
+      </div> <!-- navbar-header right Div -->
+		 <div class="nav navbar-nav navbar-right">
+			<ul class="share-buttons">
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23&t=API%20Superstore" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+				<li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23&text=API%20Superstore:%20http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23&via=kimmymcb" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+				<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+					</ul>
+				</div>	
+			 
+		
+  
+        							
+
+		 </nav>														
   <header>
     <div class="jumbotron">
         <h1 id="tagline">Save Time and Money</h1>
           <p>The API Superstore provides quick and easy access to the most APIs.</p>
-    </div>  
+    </div>  <!-- jumbotron Div -->
   </header>
     
   <section id="features">
     <div class="container">
-    <div class="row">
+  	  <div class="row">
       <div class="col-md-8">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/L48g1ZWLMdo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -68,7 +85,7 @@
         <h2>Features</h2>
         <ul>
          		<li>Access top APIs from all over the web</li>
-				<li>Easy payment via credit card, PayPal, Beanie Babies </li>
+				<li>Easy payment via credit card, PayPal, Livestock trade! </li>
 				<li>Convenient catalog browsing</li>
 				<li>Dynamic online shopping experience</li>
 				<li>Low monthly fees</li>
@@ -86,11 +103,9 @@
     </div>
     </div>
 
-  
- 
 	   <section id="slogan">
     <div>
-   <h3>Save Time and Money!The API Superstore provides a catalog of third party APIs that you can use to enhance your business. </h3> 
+   <p>Save Time and Money!The API Superstore provides a catalog of third party APIs that you can use to enhance your business. </p> 
       <button type="button" class="btn btn-default btn-lg">
       Buy Now!
       </button>
@@ -101,11 +116,13 @@
   <h2>Testimonials</h2>
 		<div class="row">
    		 <div class="col-sm-4">
-		<p><blockquote id="CP">“This is the best website ever!” C.P. Yu, AmazingSite.com </blockquote>
+			 <p><blockquote id="CP">“This is the best website ever!” <span>C.P. Yu, AmazingSite.com</span> 
+			 </blockquote>
 			</div>
-			<div class="row">
+		<div class="row">
     <div class="col-sm-4">
-		<blockquote id="Clara">“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!” Clara Cache, Satisfied Customer 
+		<blockquote id="Clara">“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!” 
+			<span>Clara Cache, Satisfied Customer </span>
 				</blockquote>
 				</div>
 		<div class="row">
@@ -113,7 +130,8 @@
 			<blockquote id="Amy">“I have really admired the way the API Superstore team has created a truly divine interface for browsing
 			all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the 
 			churn of information that makes application development so difficult, and API Superstore makes my world so much happier! 
-			Please don’t stop the rocking!” Amy Zon, Super Important Person</blockquote></p>
+			Please don’t stop the rocking!”<span> Amy Zon, Super Important Person</span>
+		</blockquote></p>
 			</div>
 		   
       </div>
@@ -123,7 +141,11 @@
  
     
   <footer id="contact">
-  <h2>Contact </h2>
+<div class=page row id=contact>
+	<div class=col-md-3>
+  <h3>Contact </h3>
+	</div>
+	<div class=col-md-9>
 			<div id="navcontainer">
 				<ul>
 					<li><a href="#"> API Superstore, Inc.</a></li>
@@ -131,7 +153,10 @@
 					<li><a href="#">Email: info@apisuperstore.com</a></li>
 					<li><a href="#">Seattle, Washington, USA </a></li>
 				</ul>
-			</div>
+	
+		</div>
+	</div>
+	</div> 
 			
   </footer>
         <!-- TODO: Create an area to put the long product description. -->
