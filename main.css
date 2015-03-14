@@ -21,6 +21,12 @@ body {
 .container{
 	padding: 0;
 }
+.navbar {
+margin-bottom: 0;
+border-radius: 0;
+height: 50px;
+}
+
 
 .navbar-brand img { height: 45px; 
 					width: auto;
@@ -31,14 +37,13 @@ body {
 	padding: 0;
 }
 .navbar-header{
-	float: absolute;
+	float: fixed;
 	
 	
 }
 .jumbotron {
 	background-image: url(design/natural_paper.png);
 }
-
 
 
 h1{
@@ -48,16 +53,18 @@ h1{
   	font-style: normal
 	
 }
-h2 { font-size: 50px; letter-spacing: 1px; color:
+h2 { 
+	font-size: 50px; letter-spacing: 1px; color:
 	darkgreen; text-transform: uppercase; text-shadow: 1px 1px 0 #000;
 	margin: 10px 0 24px; text-align: left; line-height: 60px; 
 	font-family: 'GaugeHeavy'; 
-  	 font-weight: bold; 
-  	 font-style: normal
+  	font-weight: bold; 
+  	font-style: normal
 
 }
 
-h3{font-size: 30px; letter-spacing: 1px; color:
+h3{
+	font-size: 30px; letter-spacing: 1px; color:
 	darkgreen; text-transform: uppercase; text-shadow: 1px 1px 0 #000;
 	margin: 10px 0 24px; text-align: left; line-height: 60px; 
 	font-family: 'GaugeHeavy'; 
@@ -98,7 +105,7 @@ ul{
 color: green;
 background-color: transparent;
 }
-
+/* End Footer CSS. */
 #slogan {
 	background: none;
 	background-size: cover;
@@ -112,8 +119,9 @@ background-color: transparent;
 }
 
 #features {
-  line-height: 1.5em;
+  line-height: 2.5em;
   list-style: square-button;
+  padding: 2.5rem;
 }
 
 /* experimental CSS */
@@ -128,19 +136,21 @@ rando{
 
 .nav a {
   color: #5a5a5a;
-  font-size: 14px;
-  padding: 14px 10px;
+  font-size: 15px;
+  padding: 5px 5px;
   text-transform: uppercase;
 }
 
 .nav li {
   display: inline;
 }
+
 .share-buttons{
 	list-style: none;
-	style: =height:20px;
+	line-height: 2.5em;
 }
 
 .share-buttons li{
 	display: inline;
+	float: left;
 }
