@@ -1,156 +1,34 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 /* NOTE: Do not edit the Bootstrap CSS files.  */
-html {
-	margin: 0;
-	padding: 0;
-	}
-body { 
-	line-height: 1.6em;
-	width: 70%;
-	margin: 0 auto;
-	padding-top: 100px;
-	background-image: url(design/natural_paper.png);
-	font-family: 'Open Sans Condensed', sans-serif;
-	}
 
-.active{
-	background-color: transparent;
-	opacity: 40;
+	/*
+body{
+    	padding-top: 70px;
+	background-image:url(assets/design/htmlimage.jpg);
 }
-.container{
-	padding: 0;
-}
-.navbar {
-margin-bottom: 0;
-border-radius: 0;
-height: 50px;
-}
-
 
 .navbar-brand img { height: 45px; 
 					width: auto;
+					position: absolute;
+
+}
+
+
+.row{
+	padding-bottom:25%;
 	
+	background-size:cover;
+	background-attachment:fixed;
+	border-bottom:2px solid rgb(173,4,90);
 }
-
-.navbar-brand {
-	padding: 0;
-}
-.navbar-header{
-	float: fixed;
-	
-	
-}
-.jumbotron {
-	background-image: url(design/natural_paper.png);
-}
-
-
-h1{
-	color: darkgreen;
-	font-family: 'GaugeHeavy'; 
-  	font-weight: bold; 
-  	font-style: normal
-	
-}
-h2 { 
-	font-size: 50px; letter-spacing: 1px; color:
-	darkgreen; text-transform: uppercase; text-shadow: 1px 1px 0 #000;
-	margin: 10px 0 24px; text-align: left; line-height: 60px; 
-	font-family: 'GaugeHeavy'; 
-  	font-weight: bold; 
-  	font-style: normal
-
-}
-
-h3{
-	font-size: 30px; letter-spacing: 1px; color:
-	darkgreen; text-transform: uppercase; text-shadow: 1px 1px 0 #000;
-	margin: 10px 0 24px; text-align: left; line-height: 60px; 
-	font-family: 'GaugeHeavy'; 
-  	font-weight: bold; 
-  	font-style: normal
-	
+*/
+.about{
+	padding-bottom:25%;
+	background-image:url("design/htmlimg.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	border-bottom:2px solid rgb(173,4,90);
 }
 
 
-ul{
-	 list-style-type: square;
-	 list-style-position: outside;
-     list-style-image: none;
-	 display: inline;
-}
-
-#product{
-	margin-top: 150px;
-}
-
-/* Footer CSS. */
-
-#navcontainer ul { 
-	margin: 0;
-	padding: 0;
-	list-style-type: none; 
-	text-align: center;
-}
-#navcontainer ul li { display: inline; }
-#navcontainer ul li a {
-	text-decoration: none; 
-	padding: .2em 1em;
-	color: #fff;
-	background-color: black;
-}
-#navcontainer ul li a:hover
-{
-color: green;
-background-color: transparent;
-}
-/* End Footer CSS. */
-#slogan {
-	background: none;
-	background-size: cover;
-	width: 100%;
-	height: 380px;
-	text-align: center;
-	opacity: 50;
-}
-#slogan div {
-	padding: 100px;
-}
-
-#features {
-  line-height: 2.5em;
-  list-style: square-button;
-  padding: 2.5rem;
-}
-
-/* experimental CSS */
-rando{
-  background:#eee;
-    }
-
-.pad-top{padding-top:16px;}
-.nav {
-  border-bottom: 1px solid #dbdbdb;
-}
-
-.nav a {
-  color: #5a5a5a;
-  font-size: 15px;
-  padding: 5px 5px;
-  text-transform: uppercase;
-}
-
-.nav li {
-  display: inline;
-}
-
-.share-buttons{
-	list-style: none;
-	line-height: 2.5em;
-}
-
-.share-buttons li{
-	display: inline;
-	float: left;
-}

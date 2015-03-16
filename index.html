@@ -1,172 +1,124 @@
- <!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-		
-		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
-		<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/gauge" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="main.css">
-        <!-- End Bootstrap CSS Framework -->
-
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
-
-    </head>
-	 
-    <body>
-		
-   		 <nav class="nav navbar-inverse navbar-static-top" role="navigation">
-    	  <div class="container">
-     	 <div class="navbar-header">
-     	   <a class="navbar-brand" href=#featured>
-			   <img src="assets/logos/api_superstore_logo_bg.png" alt="API Superstore logo" >
-         	 </a>
-      </div>  <!-- container Div -->
-      <ul class="nav navbar-nav navbar-left">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#features">Features</a></li>
-        <li role="presentation"><a href="#testimonials">Testimonials</a></li>
-        <li role="presentation"><a href="#contact">Contact</a></li>
-      </ul>
-      </div> <!-- navbar-header right Div -->
-		 <div class="nav navbar-nav navbar-right">
-			<ul class="share-buttons">
-				<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23&t=API%20Superstore" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-				<li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23&text=API%20Superstore:%20http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23&via=kimmymcb" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-				<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-				<li><a href="mailto:?subject=API%20Superstore&body=API%20superstore%20product%20page%20WATS%201010%20Seattle%20U:%20http%3A%2F%2Fport-80.xmcz0gv4y9q6ko6ri5ztwlrlq7rdx6rp57ymrlibu9b2o6r.box.codeanywhere.com%2F%23" target="_blank" title="Email"><i class="fa fa-envelope fa-2x"></i></a></li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>API Superstore</title>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/gauge" rel="stylesheet" type="text/css"/> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<style type="text/css">
+    body{
+    	padding-top: 70px;
+    }
+</style>
+</head>
+<body>
+<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"></a>
+			
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbarCollapse">		
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#navbar" target="_blank">API SUPERSTORE</a></li>
+				<li><a href="#about" target="_blank">About</a></li>
+				<li><a href="#testimonials" target="_blank">Testimonials</a></li>
+				<li><a href="#contact" target="_blank">Contact</a></li>
 			</ul>
-  	</nav>														
-  <header>
-    <div class="jumbotron">
-        <h1 id="tagline">Save Time and Money</h1>
-          <p>The API Superstore provides quick and easy access to the most APIs.</p>
-		
-    </div>  <!-- jumbotron Div -->
-  </header>
-    
-  <section id="features">
-    <div class="container">
-  	  <div class="row">
-      <div class="col-md-8">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/L48g1ZWLMdo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-md-4">
-		   <button type="button" class="btn btn-default btn-lg">
-           			 <span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download Now
-        	</button>
-       	    <button type="button" class="btn btn-default btn-lg">
-            		<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Share Now
-       		 </button>
-        <h2>Features</h2>
-        <ul>
-         		<li>Access top APIs from all over the web</li>
-				<li>Easy payment via credit card, PayPal, Livestock trade! </li>
-				<li>Convenient catalog browsing</li>
-				<li>Dynamic online shopping experience</li>
-				<li>Low monthly fees</li>
-        </ul>
-         	
-      </div>
-      </div>
-		  </section>
-    <div class="row">
-      <div class="clo-md-10">
-      <p>
-		From e-commerce to maps, API Superstore lists all of the services that customers expect. Watch the video 
-		  to learn more!</p>
-      </div>
-    </div>
-    </div>
-
-	   <section id="slogan">
-    <div>
-   <p>Save Time and Money!The API Superstore provides a catalog of third party APIs that you can use to enhance your business. </p> 
-      <button type="button" class="btn btn-default btn-lg">
-      Buy Now!
-      </button>
-    </div>
-  </section>
-
-<div id="testimonials" class="container">
-  <h2>Testimonials</h2>
-		<div class="row">
-   		 <div class="col-sm-4">
-			 <p><blockquote id="CP">“This is the best website ever!” <span>C.P. Yu, AmazingSite.com</span> 
-			 </blockquote>
-			</div>
-		<div class="row">
-    <div class="col-sm-4">
-		<blockquote id="Clara">“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!” 
-			<span>Clara Cache, Satisfied Customer </span>
-				</blockquote>
-				</div>
-		<div class="row">
-    <div class="col-sm-4">
-			<blockquote id="Amy">“I have really admired the way the API Superstore team has created a truly divine interface for browsing
-			all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the 
-			churn of information that makes application development so difficult, and API Superstore makes my world so much happier! 
-			Please don’t stop the rocking!”<span> Amy Zon, Super Important Person</span>
-		</blockquote></p>
-			</div>
-		   
-      </div>
-    </div>
-  </div>
-    
- 
-    
-  <footer id="contact">
-<div class=page row id=contact>
-	<div class=col-md-3>
-	</div>
-	<div class=col-md-9>
-			<div id="navcontainer">
-				<ul>
-					<li><a href="#"> API Superstore, Inc.</a></li>
-					<li><a href="#">Phone: (206)555-1234</a></li>
-					<li><a href="#">Email: info@apisuperstore.com</a></li>
-					<li><a href="#">Seattle, Washington, USA </a></li>
+			
+			<!-- social links -->
+			<ul class="nav navbar-nav navbar-right" id="social-links">
+					<li><a href="http://facebook.com" title="Share us on Facebook!"><i class="fa fa-facebook-official fa-2x" id="facebook"></i></a></li>
+					<li><a href="http://twitter.com" title="Share us on Twitter!"><i class="fa fa-twitter-square fa-2x" id="twitter"></i></a></li>
+					<li><a href="http://google.com" title="Share us on Google!"><i class="fa fa-google-plus-square fa-2x" id="google"></i></a></li>
+					<li><a href="http://linkedin.com" title="Share us on LinkedIn!"><i class="fa fa-linkedin-square fa-2x" id="linkedin"></i></a></li>
 				</ul>
-	
 		</div>
 	</div>
-	</div> 
-			
-  </footer>
-        <!-- TODO: Create an area to put the long product description. -->
+</nav>
+<div class="container" id="video">
+	<div class="jumbotron">
+		<h1>Browse. Select. Earn.</h1>
+		<p>API Superstore provides the most comprehensive selection of API's for your business. 
 
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-  </body>
-</html>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreen></iframe>
+<p>
+Watch the video to learn more! Video courtesy of API Superstore. 
+		</p></p>
+		<p><a href="https://www.youtube.com/watch?v=L48g1ZWLMdo" target="_blank" class="btn btn-success btn-lg">Get started today</a></p>
+	</div>
+	
+	<!-- About API's-->
+	<div class="row" id="about"> 
+		
+		<div class="col-xs-4">
+			<h2>About API's</h2>
+			<p>The API Superstore provides a catalog of third­party APIs that you can use to enhance your business. From e­commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself! The longer you wait, the longer you’re not making more money and happier users!</p>
+			<p><a href="https://www.youtube.com/watch?v=L48g1ZWLMdo" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+		<div class="col-xs-4">
+			<h2>Features</h2>
+			<ul>
+				<li>Links to the best APIs from all over the web </li>
+				<li> Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
+				<li>Convenient catalog </li>
+				<li>Elegant shopping experience </li>
+			</ul>
+			<p><a href="https://www.youtube.com/watch?v=L48g1ZWLMdo" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+		<div class="col-xs-4">
+			<h2>Why Choose API Superstore?</h2>
+			<p>New stakeholders are joining the API economy everyday. Whether they are Web and mobile app developers who are looking to discover the true power of Internet-based APIs or they are companies with an eye on making such APIs privately or publicly available to developers, API SUPERSTORE is the perfect resource for honing their expertise, discovering best practices, keeping up on the latest news, and developing their own thought leadership when it comes to the API economy. </p>
+			<p><a href="https://www.youtube.com/watch?v=L48g1ZWLMdo" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+	</div>
+		<hr>
+	<!-- Testimonials-->
+	<div class="row" id="testimonials">
+		
+		<div class="col-xs-4">
+			<h2>“This is the best website ever!”</h2>
+			<p>C.P. Yu, Satisfied Customer at Amazingsite.com</p>
+			<p><a href="https://www.youtube.com/watch?v=L48g1ZWLMdo" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+		<div class="col-xs-4">
+			<h2>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!”</h2>
+			<p>Amy Zon, Super Important Person</p>
+			<p><a href="https://www.youtube.com/watch?v=L48g1ZWLMdo" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+		<div class="col-xs-4">
+			<h2>The selection of API's is second to none!</h2>
+			<p>Clara Cache, API power user</p>
+			<p><a href="https://www.youtube.com/watch?v=L48g1ZWLMdo" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+	</div>
+	<hr>
+	<!-- Footer and contact info-->
+	<div class="row" id="contact">
+		<div class="col-xs-12">
+			<footer>
+				<p>&copy; Copyright 2015 API Superstore</p>
+				<address>
+  <strong>API SUPERSTORE,  Inc.</strong><br>
+  	795 Pike St., Suite 600<br>
+  Seattle, WA 98133<br>
+  <abbr title="Phone">P:</abbr> (206) 555-5555
+</address>
+			</footer>
+		</div>
+	</div>
+</div>
+</body>
+</html>                                		
